@@ -125,7 +125,7 @@ const ContactPage = () => {
                 Stay connected with us, we will help you with your various
                 needs. we will provide the best service in technical and
                 consulting matters. You can provide your needs or something you
-                ask in the form below
+                ask in the form below.
               </Text>
             </div>
           </div>
