@@ -7,7 +7,7 @@ const Input = React.forwardRef(
     {
       wrapClassName = "",
       className = "",
-      name = "teri",
+      name = "",
       placeholder = "",
       type = "text",
       children,
