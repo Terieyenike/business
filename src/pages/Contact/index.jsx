@@ -133,14 +133,8 @@ const ContactPage = () => {
             {isSubmitted ? (
               <div className="flex flex-col items-center w-full">
                 <p className="font-bold text-2xl">
-                  Form submitted successfully.
+                  Thank you! Your message has been received!
                 </p>
-                <button
-                  onClick={() => window.location.reload()}
-                  className=" bg-green-600 bottom-[17%] cursor-pointer leading-[normal] left-[14%] min-w-[182px] py-3 rounded-[25px] shadow-bs6 text-center text-white-A700 text-xl p-5 mt-5"
-                >
-                  Submit another form
-                </button>
               </div>
             ) : (
               <div className="bg-white-A700 md:h-[425px] sm:h-[538px] h-[599px] md:mt-0 mt-[15px] p-[70px] md:px-10 sm:px-5 relative rounded-[20px] shadow-bs5 w-[66%] md:w-full">
